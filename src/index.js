@@ -1,14 +1,14 @@
 import cytoscape from 'cytoscape';
 import './style.css';
-// webpackÀ¸·Î ¹­¾îÁà¾ß ÇÏ´Ï cssÆÄÀÏÀ» ÁøÀÔÁ¡ÀÎ index.js ¿¡ import ÇÕ´Ï´Ù
+// webpackìœ¼ë¡œ ë¬¶ì–´ì¤˜ì•¼ í•˜ë‹ˆ cssíŒŒì¼ì„ ì§„ì…ì ì¸ index.js ì— import í•©ë‹ˆë‹¤
 
 /* 
 {
     // node 
     "data": {
         "id": 'id',
-        "url": '¸µÅ©°É°í ½ÍÀº ÁÖ¼Ò(¿É¼Ç)',
-        "label": 'Ç¥½ÃÇÏ°í ½ÍÀº ³»¿ë(¿É¼Ç)'
+        "url": 'ë§í¬ê±¸ê³  ì‹¶ì€ ì£¼ì†Œ(ì˜µì…˜)',
+        "label": 'í‘œì‹œí•˜ê³  ì‹¶ì€ ë‚´ìš©(ì˜µì…˜)'
     }
 }
 */
@@ -17,8 +17,8 @@ import './style.css';
 {   // edge
     "data": {
         "id": 'id',
-        "source": '¿¬°áÇÒ ³ëµå Áß ÇÏÀ§¿¡ µÑ node id',
-        "target":'¿¬°áÇÒ ³ëµå Áß »óÀ§¿¡ µÑ node id'
+        "source": 'ì—°ê²°í•  ë…¸ë“œ ì¤‘ í•˜ìœ„ì— ë‘˜ node id',
+        "target":'ì—°ê²°í•  ë…¸ë“œ ì¤‘ ìƒìœ„ì— ë‘˜ node id'
     }
 }
 */
@@ -31,15 +31,15 @@ const data = [ // list of graph elements to start with
             "label": 'C++'
         }
     }, 
-    {   // node : C++ ½ÃÀÛ
+    {   // node : C++ ì‹œì‘
         "data": {
             "id": 'cpp_start',
             "url": '',
-            "label": 'C++ ½ÃÀÛ!!!'
+            "label": 'C++ ì‹œì‘!!!'
         }
     }, 
 
-    {   // edge : C++->C++ ½ÃÀÛ
+    {   // edge : C++->C++ ì‹œì‘
         "data": {
             "id": 'cpp_title->cpp_start',
             "source": 'cpp_title',
@@ -48,7 +48,7 @@ const data = [ // list of graph elements to start with
     }
 ];
 
-// ¾Æ·¡´Â °ø½Ä »çÀÌÆ®¿¡ ¿Ã¶ó¿Í ÀÖ´Â ¿¹Á¦ ÄÚµåÀÔ´Ï´Ù
+// ì•„ë˜ëŠ” ê³µì‹ ì‚¬ì´íŠ¸ì— ì˜¬ë¼ì™€ ìˆëŠ” ì˜ˆì œ ì½”ë“œì…ë‹ˆë‹¤
 var cy = cytoscape({
 
     container: document.getElementById('cy'), // container to render in
@@ -61,7 +61,7 @@ var cy = cytoscape({
             style: {
                 'background-color': '#666',
                 //'label': 'data(id)'
-                'label' : 'data(label)' // id ´ë½Å label Ç¥½Ã
+                'label' : 'data(label)' // id ëŒ€ì‹  label í‘œì‹œ
             }
         },
 

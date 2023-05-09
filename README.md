@@ -1,13 +1,13 @@
 # studymap
 
-## Âü°í »çÀÌÆ®
-https://velog.io/@takeknowledge/»ıÈ°ÄÚµù-¸¶ÀÎµå¸Ê-cytoscape-È°¿ë-ÇÁ·ÎÁ§Æ®-56k4in7315
+## ì°¸ê³  ì‚¬ì´íŠ¸
+https://velog.io/@takeknowledge/ìƒí™œì½”ë”©-ë§ˆì¸ë“œë§µ-cytoscape-í™œìš©-í”„ë¡œì íŠ¸-56k4in7315
 
-## ¼³Ä¡ ÆĞÅ°Áö
-* Æ÷½ºÆÃ ´ç½Ã ÆĞÅ°Áö¿Í ÇöÀç ÃÖ½Å ¹öÀü°£ Â÷ÀÌÁ¡ÀÌ Á¸Àç
-* dependency ¹®Á¦ È¸ÇÇ¸¦ À§ÇØ ¾Æ¿¹ ÇØ´ç È¯°æÀ¸·Î ¼³Ä¡
-* node.js ¼³Ä¡ ¹öÀü : node-v14.21.3-x64
-* ¼³Ä¡ ½ºÅ©¸³Æ® : npm install @babel/core@7.7.7 @babel/preset-env@7.7.7 @babel/preset-react@7.7.4 babel-loader@8.0.6 clean-webpack-plugin@3.0.0 css-loader@3.4.0 html-loader@0.5.5 file-loader@5.0.2 html-webpack-plugin@3.2.0 mini-css-extract-plugin@0.9.0 webpack@4.41.4 webpack-cli@3.3.10 webpack-dev-server@3.10.1 cytoscape@3.12.1 gh-pages@2.1.1
+## ì„¤ì¹˜ íŒ¨í‚¤ì§€
+* í¬ìŠ¤íŒ… ë‹¹ì‹œ íŒ¨í‚¤ì§€ì™€ í˜„ì¬ ìµœì‹  ë²„ì „ê°„ ì°¨ì´ì ì´ ì¡´ì¬
+* dependency ë¬¸ì œ íšŒí”¼ë¥¼ ìœ„í•´ ì•„ì˜ˆ í•´ë‹¹ í™˜ê²½ìœ¼ë¡œ ì„¤ì¹˜
+* node.js ì„¤ì¹˜ ë²„ì „ : node-v14.21.3-x64
+* ì„¤ì¹˜ ìŠ¤í¬ë¦½íŠ¸ : npm install @babel/core@7.7.7 @babel/preset-env@7.7.7 @babel/preset-react@7.7.4 babel-loader@8.0.6 clean-webpack-plugin@3.0.0 css-loader@3.4.0 html-loader@0.5.5 file-loader@5.0.2 html-webpack-plugin@3.2.0 mini-css-extract-plugin@0.9.0 webpack@4.41.4 webpack-cli@3.3.10 webpack-dev-server@3.10.1 cytoscape@3.12.1 gh-pages@2.1.1
 
 
-github ÆäÀÌÁö¸¦ gh-pages branch·Î µî·Ï
+github í˜ì´ì§€ë¥¼ gh-pages branchë¡œ ë“±ë¡
