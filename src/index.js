@@ -31,23 +31,23 @@ const data = [ // list of graph elements to start with
     {   // node : C++
         "data": {
             "id": 'cpp_title',
-            // "url": '',
+             "url": '',
             "label": 'C++'
         }
     }, 
-    {   // node : C++ 시작
+    {   // node : 씹어먹는 C++
         "data": {
-            "id": 'cpp_start',
-            "url": '',
-            "label": 'C++ 시작!!!'
+            "id": 'cpp_modoo',
+            "url": 'https://modoocode.com/135',
+            "label": '씹어먹는 C++'
         }
     }, 
 
-    {   // edge : C++->C++ 시작
+    {   // edge : C++->씹어먹는 C++
         "data": {
-            "id": 'cpp_title->cpp_start',
+            "id": 'cpp_title->cpp_modoo',
             "source": 'cpp_title',
-            "target":'cpp_start'
+            "target":'cpp_modoo'
         }
     }
 ];
@@ -99,4 +99,11 @@ var cy = cytoscape({
         tile: true
     }
 
+});
+
+cy.on('tap', function (e) {
+    const url = e.target.data('url')
+    if (url && url !== '') {
+        window.open(url);
+    }
 });
