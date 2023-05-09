@@ -9,40 +9,40 @@
         }
     }, 
     {
-        "node" : "C++ ½ºÅÍµð",
+        "node" : "C++ ìŠ¤í„°ë””",
         "data": {
             "id": "cpp_study",
             "url": "",
-            "label": "C++ ½ºÅÍµð"
+            "label": "C++ ìŠ¤í„°ë””"
         }
     },
     {
-        "node" : "C++ ºí·Î±×",
+        "node" : "C++ ë¸”ë¡œê·¸",
         "data": {
             "id": "cpp_blog",
             "url": "",
-            "label": "C++ ºí·Î±×"
+            "label": "C++ ë¸”ë¡œê·¸"
         }
     },
     { 
-        "node" : "¾Ã¾î¸Ô´Â C++",
+        "node" : "ì”¹ì–´ë¨¹ëŠ” C++",
         "data": {
             "id": "cpp_modoo",
             "url": "https://modoocode.com/135",
-            "label": "¾Ã¾î¸Ô´Â C++"
+            "label": "ì”¹ì–´ë¨¹ëŠ” C++"
         }
     }, 
     { 
-        "node" : "¸íÇ° C++ ÇÁ·Î±×·¡¹Ö(»ý´É)",
+        "node" : "ëª…í’ˆ C++ í”„ë¡œê·¸ëž˜ë°(ìƒëŠ¥)",
         "data": {
             "id": "cpp_sr",
             "url": "",
-            "label": "¸íÇ° C++ ÇÁ·Î±×·¡¹Ö(»ý´É)"
+            "label": "ëª…í’ˆ C++ í”„ë¡œê·¸ëž˜ë°(ìƒëŠ¥)"
         }
     }, 
 
     {   
-        "edge" : "C++ -> C++ ½ºÅÍµð",
+        "edge" : "C++ -> C++ ìŠ¤í„°ë””",
         "data": {
             "id": "cpp->cpp_study",
             "source": "cpp_study",
@@ -50,7 +50,7 @@
         }
     },    
     {   
-        "edge" : "C++ -> C++ ºí·Î±×",
+        "edge" : "C++ -> C++ ë¸”ë¡œê·¸",
         "data": {
             "id": "cpp->cpp_blog",
             "source": "cpp_blog",
@@ -58,7 +58,7 @@
         }
     },
     {
-        "edge" : "C++ -> ¾Ã¾î¸Ô´Â C++",
+        "edge" : "C++ -> ì”¹ì–´ë¨¹ëŠ” C++",
         "data": {
             "id": "cpp_study->cpp_modoo",
             "source": "cpp_modoo",
@@ -66,7 +66,7 @@
         }
     },
     {
-        "edge" : "C++ -> ¸íÇ° C++ ÇÁ·Î±×·¡¹Ö(»ý´É)",
+        "edge" : "C++ -> ëª…í’ˆ C++ í”„ë¡œê·¸ëž˜ë°(ìƒëŠ¥)",
         "data": {
             "id": "cpp_study->cpp_sr",
             "source": "cpp_sr",

@@ -107,27 +107,6 @@ cytoscape__WEBPACK_IMPORTED_MODULE_0___default.a.use(cytoscape_cose_bilkent__WEB
 
 // data build
 
-/* 
-{
-    // node 
-    "data": {
-        "id": 'id',
-        "url": '링크걸고 싶은 주소(옵션)',
-        "label": '표시하고 싶은 내용(옵션)'
-    }
-}
-*/
-
-/* 
-{   // edge
-    "data": {
-        "id": 'id',
-        "source": '연결할 노드 중 상위에 둘 node id',
-        "target":'연결할 노드 중 하위에 둘 node id'
-    }
-}
-*/
-
 fetch('./model/data.json', {
   mode: 'no-cors'
 }).then(function (res) {
