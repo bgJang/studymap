@@ -40,6 +40,14 @@
             "label": "명품 C++ 프로그래밍(생능)"
         }
     }, 
+    { 
+        "node" : "C++ 시작",
+        "data": {
+            "id": "cpp_sr_1_start",
+            "url": "",
+            "label": "C++ 시작"
+        }
+    }, 
 
     {   
         "edge" : "C++ -> C++ 스터디",
@@ -71,6 +79,14 @@
             "id": "cpp_study->cpp_sr",
             "source": "cpp_sr",
             "target":"cpp_study"
+        }
+    },
+    {
+        "edge" : "명품 C++ 프로그래밍(생능) -> C++ 시작",
+        "data": {
+            "id": "cpp_sr->cpp_sr_1_start",
+            "source": "cpp_sr_1_start",
+            "target":"cpp_sr"
         }
     }
 ]
