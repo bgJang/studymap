@@ -96,15 +96,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_style_css__WEBPACK_IMPORTED_MODULE_1__);
 
 
-// webpack���� ������� �ϴ� css������ �������� index.js �� import �մϴ�
+// webpack으로 묶어줘야 하니 css파일을 진입점인 index.js 에 import 합니다
 
 /* 
 {
     // node 
     "data": {
         "id": 'id',
-        "url": '��ũ�ɰ� ���� �ּ�(�ɼ�)',
-        "label": 'ǥ���ϰ� ���� ����(�ɼ�)'
+        "url": '링크걸고 싶은 주소(옵션)',
+        "label": '표시하고 싶은 내용(옵션)'
     }
 }
 */
@@ -113,8 +113,8 @@ __webpack_require__.r(__webpack_exports__);
 {   // edge
     "data": {
         "id": 'id',
-        "source": '������ ��� �� ������ �� node id',
-        "target":'������ ��� �� ������ �� node id'
+        "source": '연결할 노드 중 하위에 둘 node id',
+        "target":'연결할 노드 중 상위에 둘 node id'
     }
 }
 */
@@ -129,14 +129,14 @@ var data = [
     "label": 'C++'
   }
 }, {
-  // node : C++ ����
+  // node : C++ 시작
   "data": {
     "id": 'cpp_start',
     "url": '',
-    "label": 'C++ ����!!!'
+    "label": 'C++ 시작!!!'
   }
 }, {
-  // edge : C++->C++ ����
+  // edge : C++->C++ 시작
   "data": {
     "id": 'cpp_title->cpp_start',
     "source": 'cpp_title',
@@ -144,7 +144,7 @@ var data = [
   }
 }];
 
-// �Ʒ��� ���� ����Ʈ�� �ö�� �ִ� ���� �ڵ��Դϴ�
+// 아래는 공식 사이트에 올라와 있는 예제 코드입니다
 var cy = cytoscape__WEBPACK_IMPORTED_MODULE_0___default()({
   container: document.getElementById('cy'),
   // container to render in
@@ -157,7 +157,7 @@ var cy = cytoscape__WEBPACK_IMPORTED_MODULE_0___default()({
     style: {
       'background-color': '#666',
       //'label': 'data(id)'
-      'label': 'data(label)' // id ��� label ǥ��
+      'label': 'data(label)' // id 대신 label 표시
     }
   }, {
     selector: 'edge',
