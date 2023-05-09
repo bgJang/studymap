@@ -1,0 +1,76 @@
+[
+
+    {   
+        "node": "C++",
+        "data": {
+            "id": "cpp",
+            "url": "",
+            "label": "C++"        
+        }
+    }, 
+    {
+        "node" : "C++ 스터디",
+        "data": {
+            "id": "cpp_study",
+            "url": "",
+            "label": "C++ 스터디"
+        }
+    },
+    {
+        "node" : "C++ 블로그",
+        "data": {
+            "id": "cpp_blog",
+            "url": "",
+            "label": "C++ 블로그"
+        }
+    },
+    { 
+        "node" : "씹어먹는 C++",
+        "data": {
+            "id": "cpp_modoo",
+            "url": "https://modoocode.com/135",
+            "label": "씹어먹는 C++"
+        }
+    }, 
+    { 
+        "node" : "명품 C++ 프로그래밍(생능)",
+        "data": {
+            "id": "cpp_sr",
+            "url": "",
+            "label": "명품 C++ 프로그래밍(생능)"
+        }
+    }, 
+
+    {   
+        "edge" : "C++ -> C++ 스터디",
+        "data": {
+            "id": "cpp->cpp_study",
+            "source": "cpp_study",
+            "target":"cpp"
+        }
+    },    
+    {   
+        "edge" : "C++ -> C++ 블로그",
+        "data": {
+            "id": "cpp->cpp_blog",
+            "source": "cpp_blog",
+            "target":"cpp"
+        }
+    },
+    {
+        "edge" : "C++ -> 씹어먹는 C++",
+        "data": {
+            "id": "cpp_study->cpp_modoo",
+            "source": "cpp_modoo",
+            "target":"cpp_study"
+        }
+    },
+    {
+        "edge" : "C++ -> 명품 C++ 프로그래밍(생능)",
+        "data": {
+            "id": "cpp_study->cpp_sr",
+            "source": "cpp_sr",
+            "target":"cpp_study"
+        }
+    }
+]
