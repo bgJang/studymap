@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://bgjang.github.io/studymap/",
   "scripts": {
     "build": "webpack",
-    "start": "webpack-dev-server --hot"
+    "start": "webpack-dev-server --hot",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "@babel/core": "^7.7.7",
     "@babel/preset-env": "^7.7.7",
