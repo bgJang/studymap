@@ -11,3 +11,5 @@ https://velog.io/@takeknowledge/생활코딩-마인드맵-cytoscape-활용-프�
 
 
 github 페이지를 gh-pages branch로 등록
+build 폴더에서 npm run deploy를 해주면 origin/gh-pages 브랜치가 푸쉬됨
+한글 출력하려면 vscode에서 모든 소스코드를 utf-8로 작성해야한다.
