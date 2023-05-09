@@ -133,7 +133,7 @@ var data = [
   "data": {
     "id": 'cpp_start',
     "url": '',
-    "label": 'C++ ����'
+    "label": 'C++ ����!'
   }
 }, {
   // edge : C++->C++ ����
