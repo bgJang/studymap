@@ -35,7 +35,7 @@ const data = [ // list of graph elements to start with
         "data": {
             "id": 'cpp_start',
             "url": '',
-            "label": 'C++ 시작'
+            "label": 'C++ 시작!'
         }
     }, 
 
