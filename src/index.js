@@ -225,6 +225,17 @@ cy.on('tapend mouseout', 'node', function (e) {
     setResetFocus(e.cy);
 });
 
+// 추가되는 부분                                              
+let resizeTimer;
+
+window.addEventListener('resize', function () {
+    this.clearTimeout(resizeTimer);
+    resizeTimer = this.setTimeout(function(){
+        cy.fit();
+    },200);
+});
+
+
 function setDimStyle(target_cy, style) {
     target_cy.nodes().forEach(function (target) {
         target.style(style);
