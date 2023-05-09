@@ -17,8 +17,8 @@ import './style.css';
 {   // edge
     "data": {
         "id": 'id',
-        "source": '연결할 노드 중 하위에 둘 node id',
-        "target":'연결할 노드 중 상위에 둘 node id'
+        "source": '연결할 노드 중 상위에 둘 node id',
+        "target":'연결할 노드 중 하위에 둘 node id'
     }
 }
 */
@@ -70,8 +70,15 @@ var cy = cytoscape({
             style: {
                 'width': 3,
                 'line-color': '#ccc',
+                
+                // 화살표
+                'curve-style': 'bezier',
+
+                // 화살표 방향 Source -> Target
                 'target-arrow-color': '#ccc',
-                'target-arrow-shape': 'triangle'
+                // 'target-arrow-shape': 'triangle'
+                'target-arrow-shape': 'vee'
+                
             }
         }
     ],
