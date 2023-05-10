@@ -9,21 +9,21 @@
         }
     }, 
     {
-        "node" : "C++ 스터디",
+        "node" : "블로그",
         "data": {
-            "id": "cpp_study",
+            "id": "blog",
             "url": "",
-            "label": "C++ 스터디"
+            "label": "블로그"
         }
     },
-    {
-        "node" : "C++ 블로그",
+    {   
+        "node": "Git",
         "data": {
-            "id": "cpp_blog",
+            "id": "git",
             "url": "",
-            "label": "C++ 블로그"
+            "label": "Git"        
         }
-    },
+    }, 
     { 
         "node" : "씹어먹는 C++",
         "data": {
@@ -50,35 +50,39 @@
     }, 
 
     {   
-        "edge" : "C++ -> C++ 스터디",
+        "node": "Github으로 따라하는 버전 관리 (Boostcourse)",
         "data": {
-            "id": "cpp->cpp_study",
-            "source": "cpp_study",
-            "target":"cpp"
+            "id": "git_boost",
+            "url": "",
+            "label": "Github으로 따라하는 버전 관리 (Boostcourse)"        
         }
-    },    
+    }, 
     {   
-        "edge" : "C++ -> C++ 블로그",
+        "node": "Pro Git (2/E)",
         "data": {
-            "id": "cpp->cpp_blog",
-            "source": "cpp_blog",
-            "target":"cpp"
+            "id": "git_progit",
+            "url": "",
+            "label": "Pro Git (2/E)"        
         }
-    },
+    }, 
+    
+   
+
+    
     {
         "edge" : "C++ -> 씹어먹는 C++",
         "data": {
-            "id": "cpp_study->cpp_modoo",
+            "id": "cpp->cpp_modoo",
             "source": "cpp_modoo",
-            "target":"cpp_study"
+            "target":"cpp"
         }
     },
     {
         "edge" : "C++ -> 명품 C++ 프로그래밍(생능)",
         "data": {
-            "id": "cpp_study->cpp_sr",
+            "id": "cpp->cpp_sr",
             "source": "cpp_sr",
-            "target":"cpp_study"
+            "target":"cpp"
         }
     },
     {
@@ -88,5 +92,22 @@
             "source": "cpp_sr_1_start",
             "target":"cpp_sr"
         }
+    },
+    {
+        "edge" : "Git -> Github으로 따라하는 버전 관리 (Boostcourse)",
+        "data": {
+            "id": "git->git_boost",
+            "target":"git",
+            "source": "git_boost"
+        }
+    },
+    {
+        "edge" : "Git -> Pro Git (2/E)",
+        "data": {
+            "id": "git->git_progit",
+            "target":"git",
+            "source": "git_progit"
+        }
     }
+
 ]

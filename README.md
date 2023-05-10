@@ -20,6 +20,7 @@ build 폴더에서 npm run deploy를 해주면 origin/gh-pages 브랜치가 푸�
 1. 로컬에서 실행
 - 터미널에서 D:\Source\work1\map\map5 이동
 - npm run start
+- http://localhost:9000/
 
 2. Github page 반영
 - 터미널에서 D:\Source\work1\map\map5\build 이동
